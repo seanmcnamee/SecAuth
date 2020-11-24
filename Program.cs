@@ -14,6 +14,8 @@ namespace SecAuth
             u.messages.Add("You >> Aren't you supposed to moderate chat?");
             u.messages.Add("*You have been kicked from the channel*");
             u.sendMessageHistory(); */
+
+            
             
             Console.WriteLine("Hello World!");
         }
