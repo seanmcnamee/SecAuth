@@ -1,4 +1,5 @@
 ﻿using System;
+using Query;
 namespace SecAuth
 {
     public class Program
@@ -6,7 +7,7 @@ namespace SecAuth
         static void Main(string[] args)
         {
             //Authentication.Login("username", "");
-            Authentication.sendAuthenticationEmail("sean4mc5@gmail.com", "NYIT", "Sean", "McNamee", "ABCABC123");
+            //Authentication.sendAuthenticationEmail("sean4mc5@gmail.com", "NYIT", "Sean", "McNamee", "ABCABC123");
 
 /*             String[] schools = {"NYIT", "NYU"};
             User u = new User("BillyBob", User.UserType.HighSchooler, "true", "sean4mc5@gmail.com", schools);
@@ -15,7 +16,10 @@ namespace SecAuth
             u.messages.Add("*You have been kicked from the channel*");
             u.sendMessageHistory(); */
 
-            
+
+            Queries conn = new Queries();
+            conn.insertUser();
+            conn.closeConenction();
             
             Console.WriteLine("Hello World!");
         }

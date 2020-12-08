@@ -11,3 +11,5 @@ C:\Users\Sean\OneDrive\Documents\School\NYIT Fall 2020\Software Engineering\proj
 C:\Users\Sean\OneDrive\Documents\School\NYIT Fall 2020\Software Engineering\project\SecAuth\obj\Debug\netcoreapp3.1\SecAuth.dll
 C:\Users\Sean\OneDrive\Documents\School\NYIT Fall 2020\Software Engineering\project\SecAuth\obj\Debug\netcoreapp3.1\SecAuth.pdb
 C:\Users\Sean\OneDrive\Documents\School\NYIT Fall 2020\Software Engineering\project\SecAuth\obj\Debug\netcoreapp3.1\SecAuth.genruntimeconfig.cache
+C:\Users\Sean\OneDrive\Documents\School\NYIT Fall 2020\Software Engineering\project\SecAuth\bin\Debug\netcoreapp3.1\MySql.Data.DLL
+C:\Users\Sean\OneDrive\Documents\School\NYIT Fall 2020\Software Engineering\project\SecAuth\obj\Debug\netcoreapp3.1\SecAuth.csproj.CopyComplete
