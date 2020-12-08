@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FdGO4Qy4uSYswnHc8bH9A8gBuWEZ1p6FBdavfm2xoRFqvbOS/ekxjkS4A5GLi34F0qxrkvBg8hsZzDjaXL3WqA==",
+  "dgSpecHash": "vahqiI/DzofSjIA/h19Tfr1LhpFpyBaQEKG+Ivy6A6xz2NFhFzEcZZbldvG4vBYt0maIt7zZ9+pTGuJz/vWFOA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sean\\OneDrive\\Documents\\School\\NYIT Fall 2020\\Software Engineering\\project\\SecAuth\\SecAuth.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Sean\\.nuget\\packages\\mysqlconnector\\1.2.0\\mysqlconnector.1.2.0.nupkg.sha512"
+  ],
   "logs": []
 }

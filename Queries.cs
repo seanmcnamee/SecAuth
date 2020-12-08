@@ -1,7 +1,6 @@
 
 using System;
-using MySql.Data;
-using MySql.Data.MySqlClient;
+using MySqlConnector;
 
 namespace Query {
     public class Queries {
@@ -14,21 +13,10 @@ namespace Query {
         public Queries() {
             Console.WriteLine("Opening...");
 
-            try
-            {
-                myConnection = new MySql.Data.MySqlClient.MySqlConnection();
-                myConnection.ConnectionString = connString;
-                myConnection.Open();
-            }
-            catch (MySql.Data.MySqlClient.MySqlException ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-
-/*             this.myConnection = new MySqlConnection(connString);
+            this.myConnection = new MySqlConnection(connString);
             this.myConnection.Open();
             this.myCommand = new MySqlCommand();
-            this.myCommand.Connection = myConnection; */
+            this.myCommand.Connection = myConnection;
         }
 
         public void closeConenction() {
